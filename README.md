@@ -1,23 +1,4 @@
 # tryout-1.0
 first try, here comes anything
-import java.util.Scanner;
-import java.io.File;
-import java.io.IOException;
-public class DoPayroll {
-    public static void main(String args[])
-                                  throws IOException {
-        Scanner diskScanner =
-            new Scanner(new File("EmployeeInfo.txt"));
-        for (int empNum = 1; empNum <= 3; empNum++) {
-            payOneEmployee(diskScanner);
-        }
-        diskScanner.close();
-    }
-    static void payOneEmployee(Scanner aScanner) {
-        Employee anEmployee = new Employee();
-        anEmployee.setName(aScanner.nextLine());
-        anEmployee.setJobTitle(aScanner.nextLine());
-        anEmployee.cutCheck(aScanner.nextDouble());
-        aScanner.nextLine();
-    }
-}
+<p style="font:italic small-caps bold 18px/24px Garamond, Georgia, Times, Serif;width:200px;">Sample text to demonstrate HTML font code.</p>
+
